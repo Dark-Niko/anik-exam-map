@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Учебные схемы маршрутов Владивостока | Аник</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #142b27;
+      background: #f2f6f4;
+      font: 1rem/1.5 system-ui, sans-serif;
+    }
+    header {
+      background: #11352f;
+      color: #fff;
+    }
+    .wrap {
+      width: min(100% - 2rem, 68rem);
+      margin-inline: auto;
+    }
+    header .wrap { padding-block: 1.2rem 1.6rem; }
+    header a { color: #e3f4ed; }
+    h1 {
+      margin: .35rem 0 0;
+      font-size: clamp(1.65rem, 4vw, 2.45rem);
+      line-height: 1.18;
+    }
+    main { padding-block: 1rem 2.2rem; }
+    p { margin-block: .35rem .85rem; }
+    a { color: #155c4a; }
+    a:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin-block: 1rem 1.35rem;
+    }
+    nav a {
+      padding: .55rem .85rem;
+      border: 1px solid #c6d9d0;
+      border-radius: .55rem;
+      background: #fff;
+      text-decoration: none;
+      font-weight: 650;
+    }
+    nav a:hover { background: #e3f0ea; }
+    section {
+      margin-bottom: 1.25rem;
+      padding: .85rem 1rem 1rem;
+      border: 1px solid #c6d9d0;
+      border-top: .3rem solid var(--accent);
+      border-radius: .75rem;
+      background: #fff;
+      scroll-margin-top: .6rem;
+    }
+    h2 {
+      margin: 0 0 .55rem;
+      font-size: 1.28rem;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: clamp(20rem, 60vh, 37rem);
+      border: 1px solid #d3e1db;
+      border-radius: .45rem;
+      background: #eef3f0;
+    }
+    .map-link { display: inline-block; margin-top: .65rem; }
+    @media (max-width: 34rem) {
+      .wrap { width: calc(100% - 1.25rem); }
+      section { padding-inline: .65rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a href="../">К атласу «Аник»</a>
+      <h1>Учебные схемы маршрутов Владивостока</h1>
+    </div>
+  </header>
+  <main class="wrap">
+    <p>Линии на картах показывают участки из опубликованных учебных схем. Уточняйте у инструктора место старта и участки, которые используют в день экзамена.</p>
+    <p>Источник схем: <a href="https://profi-prim.ru/materials">автошкола «Профи Центр»</a>.</p>
+    <nav aria-label="Выбрать район">
+      <a href="#vtoraya-rechka">Вторая Речка</a>
+      <a href="#bam">БАМ</a>
+      <a href="#71">71-й микрорайон</a>
+      <a href="#churkin">Чуркин</a>
+    </nav>
+    <section id="vtoraya-rechka" style="--accent: #196a59" aria-labelledby="vtoraya-rechka-title">
+      <h2 id="vtoraya-rechka-title">Вторая Речка</h2>
+      <iframe
+        title="Учебная схема: Вторая Речка"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A02b3463725a543558136cae3ce0107a5d24776e5e851f5fc7a45f645b08dc2f7&amp;source=constructor"
+        loading="eager"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+      <a class="map-link" href="https://yandex.ru/map-widget/v1/?um=constructor%3A02b3463725a543558136cae3ce0107a5d24776e5e851f5fc7a45f645b08dc2f7&amp;source=constructor">Открыть карту отдельно</a>
+    </section>
+    <section id="bam" style="--accent: #924d19" aria-labelledby="bam-title">
+      <h2 id="bam-title">БАМ</h2>
+      <iframe
+        title="Учебная схема: БАМ"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A07c2687aa6b20cc73c5535e14d57df2b5750e10fdb7e9fa95fdcf872203fa5fa&amp;source=constructor"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+      <a class="map-link" href="https://yandex.ru/map-widget/v1/?um=constructor%3A07c2687aa6b20cc73c5535e14d57df2b5750e10fdb7e9fa95fdcf872203fa5fa&amp;source=constructor">Открыть карту отдельно</a>
+    </section>
+    <section id="71" style="--accent: #4b5399" aria-labelledby="71-title">
+      <h2 id="71-title">71-й микрорайон</h2>
+      <iframe
+        title="Учебная схема: 71-й микрорайон"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A1bc23e43f9ef08d857e2e7b57911f1cc2ce3ab199abc56d937116ee4e08425b0&amp;source=constructor"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+      <a class="map-link" href="https://yandex.ru/map-widget/v1/?um=constructor%3A1bc23e43f9ef08d857e2e7b57911f1cc2ce3ab199abc56d937116ee4e08425b0&amp;source=constructor">Открыть карту отдельно</a>
+    </section>
+    <section id="churkin" style="--accent: #8a3d66" aria-labelledby="churkin-title">
+      <h2 id="churkin-title">Чуркин</h2>
+      <iframe
+        title="Учебная схема: Чуркин"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A4747d14a45fa779893c155a8909917560ffc6a8cdc3d7003de95d1e006423eab&amp;source=constructor"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+      <a class="map-link" href="https://yandex.ru/map-widget/v1/?um=constructor%3A4747d14a45fa779893c155a8909917560ffc6a8cdc3d7003de95d1e006423eab&amp;source=constructor">Открыть карту отдельно</a>
+    </section>
+  </main>
+</body>
+</html>
